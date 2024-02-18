@@ -60,12 +60,7 @@ def format_csv(csv_file_path):
             for key in label_keywords:
                 if cell == key:
                     rows[0][index] = label_keywords[key]
-                    break
-            
-        
-        
-        # rows[0][0] = "日にち・時刻"
-        # rows[0][1] = "システムが起動してからの経過時間"     
+                    break    
         
         # csvを書き出す処理
         writer = csv.writer(sys.stdout)  # オブジェクト作成
