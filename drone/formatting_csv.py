@@ -8,6 +8,16 @@ import csv
 label_keywords = {
     'timestamp':'日にち・時刻',
     'TimeUS':'システムが起動してからの経過時間',
+    # ATT
+    'DesRoll':'車両希望ロール',
+    'Roll':'ロール',
+    'DesPitch':'車両希望ロール',
+    'Pitch':'ピッチ',
+    'DesYaw':'車両希望ヨー',
+    'Yaw':'ヨー',
+    'ErrRP':'最低推定ジャイロドリフトエラー',
+    'ErrYaw':'測定されたヨーとDCMヨーの推定値の違い',
+    'active EKF type':'アクティブEKFタイプ',
     # GPS
     'Status':'GPSの修正タイプ',
     'GMS':'GPS週の開始以来ミリ秒',
